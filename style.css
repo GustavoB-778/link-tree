@@ -8,7 +8,7 @@
 :root {
     --dark-grey: #1F1F1F;
     --grey: #333333;
-    --neon-color: #8A00C4;
+    --neon-purple: #8A00C4;
     --white: #FFF;
 }
 body {
@@ -23,6 +23,28 @@ div {
     color: var(--white);
     width: 384px;
     padding: 40px;
+    border-radius: 12px;
+    text-align: center;
+}
+img {
+    border-radius: 50%;
+    margin-bottom: 24px;
+}
+h1 {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 150%;
+    margin-bottom: 4px;
+}
+strong {
+    font-size: 14px;
+    line-height: 150%;
+    color: var(--neon-purple);
+}
+p {
+    margin-block: 24px;
+    font-size: 14px;
+    line-height: 140%;
 }
 ul, li {
     list-style: none;
